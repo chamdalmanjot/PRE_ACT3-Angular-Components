@@ -1,0 +1,40 @@
+:host {
+  display: block;
+  margin: 26px 0;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill {
+  width: 100%;
+  border: 1px solid #8ec1ff;
+  border-left: 4px solid #1e6fd9;
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: #f4f9ff;
+  color: #1c2b3f;
+  text-align: left;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.15s, background 0.15s;
+}
+
+.skill:hover {
+  background: #e7f1ff;
+  border-color: #1e6fd9;
+  transform: translateX(4px);
+}
+
+@media (max-width: 600px) {
+  ul {
+    grid-template-columns: 1fr;
+  }
+}

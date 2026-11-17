@@ -1,0 +1,27 @@
+<main class="resume">
+  <app-header
+    [fullName]="fullName"
+    [location]="location"
+    [email]="email"
+    [phone]="phone"
+    [profile]="profile"
+  ></app-header>
+
+  <app-profile-card></app-profile-card>
+
+  <app-skills
+    [skills]="skills"
+    (skillSelected)="onSkillSelected($event)"
+  ></app-skills>
+
+  <section class="interaction">
+    <h2>Angular Interaction</h2>
+    <p>{{ message }}</p>
+    <button (click)="showMessage()">Click Me</button>
+  </section>
+
+  <app-footer
+    [fullName]="fullName"
+    [proficiencies]="proficiencies"
+  ></app-footer>
+</main>

@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+/* Global styles: apply to every component in the application. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.section-title {
+  margin: 0 0 14px;
+  padding: 6px 0 6px 12px;
+  color: #13478f;
+  border-left: 5px solid #1e6fd9;
+  border-bottom: 1px solid #8ec1ff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}

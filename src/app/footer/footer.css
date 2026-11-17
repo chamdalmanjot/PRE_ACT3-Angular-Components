@@ -1,0 +1,43 @@
+:host {
+  display: block;
+  margin-top: 26px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #cfe3ff;
+  text-align: left;
+}
+
+th {
+  color: #ffffff;
+  background: #13478f;
+}
+
+tbody tr:hover {
+  background: #f4f9ff;
+}
+
+.level {
+  display: inline-block;
+  padding: 2px 12px;
+  border-radius: 20px;
+  background: #1e6fd9;
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+.copyright {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #8ec1ff;
+  color: #13478f;
+  font-size: 0.9rem;
+  text-align: center;
+}

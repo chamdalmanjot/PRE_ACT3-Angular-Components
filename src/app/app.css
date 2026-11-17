@@ -1,0 +1,76 @@
+:host {
+  --blue-900: #0b2545;
+  --blue-700: #13478f;
+  --blue-500: #1e6fd9;
+  --blue-300: #8ec1ff;
+  --blue-100: #e7f1ff;
+  --blue-50: #f4f9ff;
+  --text: #1c2b3f;
+
+  display: block;
+  min-height: 100vh;
+  padding: 40px 16px;
+  background: linear-gradient(160deg, var(--blue-100) 0%, #cfe3ff 100%);
+}
+
+.resume {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+  background: #ffffff;
+  color: var(--text);
+  font-family: 'Poppins', Arial, sans-serif;
+  line-height: 1.7;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(11, 37, 69, 0.2);
+}
+
+app-header,
+app-profile-card,
+app-skills,
+app-footer {
+  display: block;
+}
+
+.interaction {
+  margin: 26px 0;
+  padding: 20px;
+  text-align: center;
+  background: var(--blue-50);
+  border-radius: 12px;
+}
+
+.interaction h2 {
+  margin: 0 0 10px;
+  color: var(--blue-700);
+}
+
+button {
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 26px;
+  background: var(--blue-500);
+  color: #ffffff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background: var(--blue-700);
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+@media (max-width: 600px) {
+  :host {
+    padding: 12px 8px;
+  }
+
+  .resume {
+    padding: 16px;
+  }
+}
